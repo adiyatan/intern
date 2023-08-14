@@ -1,0 +1,19 @@
+{
+    "name": "adiya/belajartesting",
+    "require": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adiya\\Belajartesting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "adiyazam"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "adiya/api-santri",
+    "autoload": {
+        "psr-4": {
+            "Adiya\\ApiSantri\\": "src/"
+        }
+    },
+    "require": {}
+}

@@ -1,0 +1,32 @@
+{
+    "name": "adiya/package",
+    "description": "belajar",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adiya\\Package\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "adiya"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../package"
+        }
+    ],
+    "require": {
+        "adiya/package": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "adiya\\package\\PackageServiceProvider"
+            ]
+        }
+    }
+}
